@@ -1,7 +1,7 @@
 # WikiEngine
 This repository contains the code for running a search engine on the Wikipedia corpus, utilizing three inverted index for efficient querying, on a GCP project.
 
-## Structure
+## Structure, Organization, and Functionality
 ### Files
 1. **inverted_index_gcp.py** - includes the inverted index class and helper functions for building and writing the index.
 2. **indexes_builder_run_in_cluster.ipynb** - Jupyter notebook for building three inverted indexes using the inverted_index_gcp.py, running in a GCP cluster.
