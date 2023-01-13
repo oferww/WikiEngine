@@ -7,15 +7,16 @@ This repository contains the code for a search engine for the Wikipedia corpus, 
 3. search_frontend.py - runs the search engine frontend on an instance using the inverted indexes built and stored in a Google Cloud Platform (GCP) bucket.
 
 ## Requirements
-Python 3.x
-Google Cloud SDK
-gsutil
+* Python 3.x
+* Google Cloud SDK
+* gsutil
 
 ## Usage
-Clone the repository.
-Run the indexes_builder_run_in_cluster.ipynb to build the inverted indexes.
-Run the search_frontend.py to start the search engine on an instance.
-Use the provided UI to query the Wikipedia corpus.
+1. Clone the repository.
+2. Run the indexes_builder_run_in_cluster.ipynb to build the inverted indexes.
+3. Run the search_frontend.py to start the search engine on an instance.
+4. Use the provided UI to query the Wikipedia corpus.
 
 ## Note
+
 Please note that the code is written using gcp specific libraries, so you may have to replace them with other cloud providers or local storage libraries.
