@@ -1,5 +1,5 @@
 # WikiEngine
-This repository contains the code for a search engine for the Wikipedia corpus, utilizing an inverted index for efficient querying.
+This repository contains the code for running a search engine on the Wikipedia corpus, utilizing three inverted index for efficient querying, on a GCP project.
 
 ## Files
 1. **inverted_index_gcp.py** - includes the inverted index class and helper functions for building and writing the index.
