@@ -5,6 +5,8 @@ This repository contains the code for running a search engine on the Wikipedia c
 1. **inverted_index_gcp.py** - includes the inverted index class and helper functions for building and writing the index.
 2. **indexes_builder_run_in_cluster.ipynb** - Jupyter notebook for building three inverted indexes using the inverted_index_gcp.py, running in a GCP cluster.
 3. **search_frontend.py** - runs the search engine frontend on a GCP instance using the three inverted indexes built and stored in a GCP bucket.
+4.
+5.
 
 ## Requirements
 * Python 3.x
