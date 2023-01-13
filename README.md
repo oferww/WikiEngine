@@ -17,8 +17,9 @@ This repository contains the code for running a search engine on the Wikipedia c
 1. Clone the repository.
 2. Upload inverted_index_gcp.py and indexes_builder_run_in_cluster.ipynb to a GCP cluster.
 3. Run the indexes_builder_run_in_cluster.ipynb to build the three inverted indexes.
-4. Run the search_frontend.py to start the search engine on an instance.
-5. Use the provided UI to query the Wikipedia corpus.
+4. Upload startup_script_gcp.sh and run_frontend_in_gcp.sh to a GCP shell.
+5. Run the search_frontend.py with executing run_frontend_in_gcp.sh in a GCP shell.
+6. Use the provided UI to query the Wikipedia corpus.
 
 ## Note
 
