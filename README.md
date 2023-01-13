@@ -20,4 +20,4 @@ This repository contains the code for a search engine for the Wikipedia corpus, 
 
 ## Note
 
-Please note that the code is written using gcp specific libraries, so you may have to replace them with other cloud providers or local storage libraries.
+Please note that the code is written using GCP specific libraries, so you may have to replace them with other cloud providers or local storage libraries.
