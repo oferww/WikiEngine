@@ -149,10 +149,10 @@ def search():
         except:
             continue
 
-    sortd = sorted([(doc_id, np.round(score, 5)) for doc_id, score in dic.items()], key=lambda x: x[1], reverse=True)[:100]
+    sortd = sorted([(doc_id, np.round(score, 5)) for doc_id, score in dic.items()], key=lambda x: x[1], reverse=True)[:5]
     res = [(x[0], body_inverted_index.ids_titles_map[x[0]]) for x in sortd if x[0] in body_inverted_index.ids_titles_map.keys()]
     # END SOLUTION
-    return jsonify(res[:100])
+    return jsonify(res)
 
 
 @app.route("/search_body")
